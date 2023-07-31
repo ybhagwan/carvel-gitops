@@ -9,6 +9,6 @@ spec:
    refName: tanzu-java-web-app-carvel.my-apps.tap # name of the Package
    versionSelection:
      constraints: 20230731061039.0.0 # version of the Package
- values:
- - secretRef:
-     name: app-values # Secret created in previous step
+# values:
+# - secretRef:
+#     name: app-values # Secret created in previous step
