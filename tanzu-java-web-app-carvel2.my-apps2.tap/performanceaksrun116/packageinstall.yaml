@@ -5,6 +5,7 @@ metadata:
  name: tanzu-java-web-app-carvel2
 spec:
  serviceAccountName: default # ServiceAccount on run cluster with permissions to deploy Package, see "Set up run Cluster Namespaces"
+ namespace: my-apps
  packageRef:
    refName: tanzu-java-web-app-carvel2.my-apps2.tap # name of the Package
    versionSelection:
