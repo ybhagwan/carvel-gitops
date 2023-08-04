@@ -11,4 +11,4 @@ spec:
      constraints: 20230804063850.0.0+build.ac352a6 # version of the Package
  values:
  - secretRef:
-     name: app-values # Secret created in previous step
+     name: app-values2 # Secret created in previous step
